@@ -17,26 +17,16 @@ export default function App() {
       logo="Morning Brew"
       navItems={[
         {
-          name: "Home",
-          href: "#hero",
-        },
+          name: "Home",          href: "#hero"},
         {
-          name: "Menu",
-          href: "#products",
-        },
+          name: "Menu",          href: "#products"},
         {
-          name: "About",
-          href: "#about",
-        },
+          name: "About",          href: "#about"},
         {
-          name: "Contact",
-          href: "#contact",
-        },
+          name: "Contact",          href: "#contact"},
       ]}
       ctaButton={{
-        text: "Order Online",
-        href: "#contact",
-      }}
+        text: "Order Online",        href: "#contact"}}
     />
   </div>
 
@@ -46,32 +36,16 @@ export default function App() {
       title="Awaken Your Senses with Morning Brew"
       description="Handcrafted coffee, ethically sourced and roasted to perfection. Experience the art of the perfect pour, one cup at a time."
       primaryButton={{
-        text: "View Menu",
-        href: "#products",
-      }}
+        text: "View Menu",        href: "#products"}}
       secondaryButton={{
-        text: "Visit Us",
-        href: "#contact",
-      }}
+        text: "Visit Us",        href: "#contact"}}
       items={[
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fweblo",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6nh0oa",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=5d94eq",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=bcgs72",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xvfjb6",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=41i793",
-        },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fweblo" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6nh0oa" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=5d94eq" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=bcgs72" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=xvfjb6" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=41i793" },
       ]}
     />
   </div>
@@ -93,23 +67,11 @@ export default function App() {
       description="We take pride in our craft, ensuring the highest standards of quality from bean to cup."
       items={[
         {
-          tag: "Sourcing",
-          title: "Ethical Beans",
-          description: "Direct trade partnerships with sustainable family farms.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=7t61qn",
-        },
+          tag: "Sourcing",          title: "Ethical Beans",          description: "Direct trade partnerships with sustainable family farms.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=7t61qn"},
         {
-          tag: "Craft",
-          title: "Expert Roasting",
-          description: "Small-batch roasting for peak flavor development.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=dhnntd",
-        },
+          tag: "Craft",          title: "Expert Roasting",          description: "Small-batch roasting for peak flavor development.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=dhnntd"},
         {
-          tag: "Service",
-          title: "Artisan Brewing",
-          description: "Precision methods for perfectly extracted espresso.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0ey7g9",
-        },
+          tag: "Service",          title: "Artisan Brewing",          description: "Precision methods for perfectly extracted espresso.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0ey7g9"},
       ]}
     />
   </div>
@@ -121,100 +83,40 @@ export default function App() {
       description="Discover our curated selection of signature coffee drinks."
       plans={[
         {
-          tag: "Popular",
-          price: "$4.50",
-          period: "cup",
-          description: "The perfect daily espresso.",
-          primaryButton: {
-            text: "Order",
-            href: "#contact",
-          },
-          featuresTitle: "Includes",
-          features: [
-            "Double shot",
-            "Organic roast",
-            "Milk option",
-          ],
+          tag: "Popular",          price: "$4.50",          period: "cup",          description: "The perfect daily espresso.",          primaryButton: {
+            text: "Order",            href: "#contact"},
+          featuresTitle: "Includes",          features: [
+            "Double shot",            "Organic roast",            "Milk option"],
         },
         {
-          tag: "Signature",
-          price: "$5.75",
-          period: "cup",
-          description: "Artisan milk art experience.",
-          primaryButton: {
-            text: "Order",
-            href: "#contact",
-          },
-          featuresTitle: "Includes",
-          features: [
-            "Velvety foam",
-            "Signature bean",
-            "Barista choice",
-          ],
+          tag: "Signature",          price: "$5.75",          period: "cup",          description: "Artisan milk art experience.",          primaryButton: {
+            text: "Order",            href: "#contact"},
+          featuresTitle: "Includes",          features: [
+            "Velvety foam",            "Signature bean",            "Barista choice"],
         },
         {
-          tag: "Refresh",
-          price: "$6.00",
-          period: "cup",
-          description: "Smooth cold brew goodness.",
-          primaryButton: {
-            text: "Order",
-            href: "#contact",
-          },
-          featuresTitle: "Includes",
-          features: [
-            "Slow steeped",
-            "Ice blend",
-            "Smooth finish",
-          ],
+          tag: "Refresh",          price: "$6.00",          period: "cup",          description: "Smooth cold brew goodness.",          primaryButton: {
+            text: "Order",            href: "#contact"},
+          featuresTitle: "Includes",          features: [
+            "Slow steeped",            "Ice blend",            "Smooth finish"],
         },
         {
-          tag: "Classic",
-          price: "$4.00",
-          period: "cup",
-          description: "Rich black americano.",
-          primaryButton: {
-            text: "Order",
-            href: "#contact",
-          },
-          featuresTitle: "Includes",
-          features: [
-            "Double shot",
-            "Hot water",
-            "Bold roast",
-          ],
+          tag: "Classic",          price: "$4.00",          period: "cup",          description: "Rich black americano.",          primaryButton: {
+            text: "Order",            href: "#contact"},
+          featuresTitle: "Includes",          features: [
+            "Double shot",            "Hot water",            "Bold roast"],
         },
         {
-          tag: "Treat",
-          price: "$6.50",
-          period: "cup",
-          description: "Sweet chocolate harmony.",
-          primaryButton: {
-            text: "Order",
-            href: "#contact",
-          },
-          featuresTitle: "Includes",
-          features: [
-            "Organic cocoa",
-            "Steamed milk",
-            "Espresso base",
-          ],
+          tag: "Treat",          price: "$6.50",          period: "cup",          description: "Sweet chocolate harmony.",          primaryButton: {
+            text: "Order",            href: "#contact"},
+          featuresTitle: "Includes",          features: [
+            "Organic cocoa",            "Steamed milk",            "Espresso base"],
         },
         {
-          tag: "Smooth",
-          price: "$5.00",
-          period: "cup",
-          description: "Silky flat white texture.",
-          primaryButton: {
-            text: "Order",
-            href: "#contact",
-          },
-          featuresTitle: "Includes",
-          features: [
-            "Balanced roast",
-            "Microfoam",
-            "Perfect ratio",
-          ],
+          tag: "Smooth",          price: "$5.00",          period: "cup",          description: "Silky flat white texture.",          primaryButton: {
+            text: "Order",            href: "#contact"},
+          featuresTitle: "Includes",          features: [
+            "Balanced roast",            "Microfoam",            "Perfect ratio"],
         },
       ]}
     />
@@ -227,28 +129,16 @@ export default function App() {
       description="By the numbers: your daily coffee impact."
       metrics={[
         {
-          value: "12,000+",
-          title: "Cups Served",
-          features: [
-            "Since opening",
-            "Neighborhood favorite",
-          ],
+          value: "12,000+",          title: "Cups Served",          features: [
+            "Since opening",            "Neighborhood favorite"],
         },
         {
-          value: "8+",
-          title: "Farmer Partners",
-          features: [
-            "Direct trade",
-            "Ethical sourcing",
-          ],
+          value: "8+",          title: "Farmer Partners",          features: [
+            "Direct trade",            "Ethical sourcing"],
         },
         {
-          value: "5+",
-          title: "Roast Profiles",
-          features: [
-            "Hand-selected",
-            "Custom crafted",
-          ],
+          value: "5+",          title: "Roast Profiles",          features: [
+            "Hand-selected",            "Custom crafted"],
         },
       ]}
     />
@@ -261,35 +151,15 @@ export default function App() {
       description="What our wonderful regulars are saying about us."
       testimonials={[
         {
-          name: "Alex P.",
-          role: "Daily Regular",
-          quote: "The best espresso in the city, hands down.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=jvdxuj",
-        },
+          name: "Alex P.",          role: "Daily Regular",          quote: "The best espresso in the city, hands down.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=jvdxuj"},
         {
-          name: "Sarah J.",
-          role: "Digital Nomad",
-          quote: "Perfect atmosphere for getting work done.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=j2ie1u",
-        },
+          name: "Sarah J.",          role: "Digital Nomad",          quote: "Perfect atmosphere for getting work done.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=j2ie1u"},
         {
-          name: "Mike T.",
-          role: "Foodie",
-          quote: "You can truly taste the quality difference.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=bnl07c",
-        },
+          name: "Mike T.",          role: "Foodie",          quote: "You can truly taste the quality difference.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=bnl07c"},
         {
-          name: "Emily K.",
-          role: "Morning Commuter",
-          quote: "Friendly staff, consistent roast quality.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=plhbnl",
-        },
+          name: "Emily K.",          role: "Morning Commuter",          quote: "Friendly staff, consistent roast quality.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=plhbnl"},
         {
-          name: "David R.",
-          role: "Local Resident",
-          quote: "My morning ritual wouldn't be complete.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=mtvatr",
-        },
+          name: "David R.",          role: "Local Resident",          quote: "My morning ritual wouldn't be complete.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=mtvatr"},
       ]}
     />
   </div>
@@ -301,17 +171,11 @@ export default function App() {
       description="Answers to your burning coffee questions."
       items={[
         {
-          question: "Do you offer milk alternatives?",
-          answer: "Yes, we offer oat, almond, and soy milk for all our drinks.",
-        },
+          question: "Do you offer milk alternatives?",          answer: "Yes, we offer oat, almond, and soy milk for all our drinks."},
         {
-          question: "Can I buy beans to brew at home?",
-          answer: "Absolutely! We sell our signature blends by the bag in-store.",
-        },
+          question: "Can I buy beans to brew at home?",          answer: "Absolutely! We sell our signature blends by the bag in-store."},
         {
-          question: "Are you open on weekends?",
-          answer: "Yes, we are open 8 AM - 6 PM every day of the week.",
-        },
+          question: "Are you open on weekends?",          answer: "Yes, we are open 8 AM - 6 PM every day of the week."},
       ]}
     />
   </div>
@@ -321,13 +185,9 @@ export default function App() {
       tag="Visit Us"
       text="Find us at 123 Coffee Lane, City Center. Come in for a cup or place a large order online."
       primaryButton={{
-        text: "Get Directions",
-        href: "https://maps.google.com",
-      }}
+        text: "Get Directions",        href: "https://maps.google.com"}}
       secondaryButton={{
-        text: "Contact Support",
-        href: "mailto:hello@morningbrew.com",
-      }}
+        text: "Contact Support",        href: "mailto:hello@morningbrew.com"}}
     />
   </div>
 
@@ -336,42 +196,28 @@ export default function App() {
       brand="Morning Brew"
       columns={[
         {
-          title: "Menu",
-          items: [
+          title: "Menu",          items: [
             {
-              label: "Espresso",
-              href: "#products",
-            },
+              label: "Espresso",              href: "#products"},
             {
-              label: "Signature",
-              href: "#products",
-            },
+              label: "Signature",              href: "#products"},
           ],
         },
         {
-          title: "About",
-          items: [
+          title: "About",          items: [
             {
-              label: "Our Story",
-              href: "#about",
-            },
+              label: "Our Story",              href: "#about"},
             {
-              label: "Impact",
-              href: "#metrics",
-            },
+              label: "Impact",              href: "#metrics"},
           ],
         },
       ]}
       copyright="© 2024 Morning Brew Coffee Co."
       links={[
         {
-          label: "Privacy",
-          href: "#",
-        },
+          label: "Privacy",          href: "#"},
         {
-          label: "Terms",
-          href: "#",
-        },
+          label: "Terms",          href: "#"},
       ]}
     />
   </div>
